@@ -8,13 +8,13 @@
 //Tap Dance Declarations
 enum {
 	TD_CAPS_LT1 = 0
-}
+};
 
 //Tap Dance Definiatons
 qk_tap_dance_action_t tap_dance_actions[] = {
 	//Tap once of Caps tap twice for LT1
 	[TD_CAPS_LT1] = ACTION_TAP_DANCE_DOUBLE(KC_CAPS, TG(1))
-}
+};
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 		[_LAYER0] = LAYOUT_ANSI( /* Base */
