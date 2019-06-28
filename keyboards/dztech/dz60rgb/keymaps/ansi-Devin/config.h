@@ -40,6 +40,3 @@
 #define DRIVER_1_LED_TOTAL 63
 #endif
 #define DRIVER_LED_TOTAL DRIVER_1_LED_TOTAL
-
-//Tap Dance
-#define TAPPING_TERM 200
